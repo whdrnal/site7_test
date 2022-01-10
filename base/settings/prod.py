@@ -5,7 +5,7 @@ DEBUG = False
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'site7_dev',  # db에 데이터베이스가 생성되어있는지 먼저 체크
+        'NAME': 'site7',  # db에 데이터베이스가 생성되어있는지 먼저 체크
         'USER': 'whdrnal',  # 유저가 제대로 추가되어있는지 먼저 체크
         'PASSWORD': 'dudwls85',
         'HOST': '172.17.0.1',
@@ -29,3 +29,6 @@ DATABASES = {
 # 이렇게 해도 작동에 무리가 없어요 이렇게 하면 오히려 더 직관적일거에여 ok 2개 다 어차피 똑같이
 # 사용하는거네요 근데 배포용과 이제 2가의 그게있는거고 common 이녀석은 계속 dev 로주고 prod  로주고
 # 맞아여 클래스 상속과 같은 느낌으로 이해하시면 대여 오! 살짝 이해했습니다! 감사합니다!
+
+
+#쟤는 ssh주소란거에여, 저걸로 통신하기위해서는 private key와 public key가 필요해여. 네이버 서버 올릴때 봤져? 네네
